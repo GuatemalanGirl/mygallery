@@ -44,6 +44,21 @@
             overflow-y: auto;
         }
 
+        .close-button {
+            position: absolute;
+            top: 1px;
+            right: 1px;
+            background: none;
+            border: none;
+            font-size: 20px;
+            color: #333;
+            cursor: pointer;
+}
+
+        .close-button:hover {
+            color: red;
+}
+
         #audioButton {
             margin-top: 10px;
             padding: 10px;
@@ -71,6 +86,7 @@
         <h3 id="descriptionTitle">그림 이야기</h3>
         <p id="descriptionText">선택된 그림에 대한 이야기가 여기에 표시됩니다.</p>
         <button id="audioButton">🎵</button>
+        <button id="closeButton"class="close-button">×</button> <!-- X 버튼 추가 -->
     </div>
 
     <script src="https://unpkg.com/three@0.128.0/build/three.min.js"></script>
@@ -220,6 +236,17 @@
             const currentCube = cubes[selectedCubeIndex];
             focusOnCube(currentCube);
             updateDescription(selectedCubeIndex);
+
+            // 그림이 이동할 때 설명창 닫기
+            const descriptionContainer = document.getElementById('descriptionContainer');
+            descriptionContainer.style.display = 'none'; // 창 숨기기
+
+            // 오디오 멈추기
+            if (isPlaying) {
+                audio.pause();
+                isPlaying = false;
+                document.getElementById('audioButton').textContent = '🎵'; // 버튼 텍스트 초기화
+            }    
         }
 
         function updateDescription(index) {
@@ -246,7 +273,7 @@
             } else {
                 audio.play();
                 isPlaying = true;
-                document.getElementById('audioButton').textContent = '🎵';
+                document.getElementById('audioButton').textContent = '⏸️';
             }
         }
 
@@ -257,6 +284,18 @@
             const descriptionContainer = document.getElementById('descriptionContainer');
             const isVisible = descriptionContainer.style.display === 'block';
             descriptionContainer.style.display = isVisible ? 'none' : 'block';
+        });
+
+        document.getElementById('closeButton').addEventListener('click', () => {
+            const descriptionContainer = document.getElementById('descriptionContainer');
+            descriptionContainer.style.display = 'none'; // 창 숨기기
+
+             // 음악 멈추기
+            if (isPlaying) {
+                audio.pause();
+                isPlaying = false;
+                document.getElementById('audioButton').textContent = '🎵'; // 버튼 텍스트 초기화
+            }
         });
 
         function animate() {
