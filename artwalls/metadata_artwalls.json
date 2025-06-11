@@ -1,0 +1,23 @@
+[
+  {
+    "id": "artwall_01",
+    "type": "artwall",
+    "filename": "Gogh_Bed_room.jpg",
+    "title": "Design Art",
+    "description": "디자인과 예술의 경계를 넘나드는 이야기입니다."
+  },
+  {
+    "id": "artwall_02",
+    "type": "artwall",
+    "filename": "woods.png",
+    "title": "Campbell's Soup",
+    "description": "앤디 워홀이 그린 대중 소비 이미지의 대표작."
+  },
+  {
+    "id": "artwall_03",
+    "type": "artwall",
+    "filename": "yellowhouse.png",
+    "title": "Campbell's Soup",
+    "description": "앤디 워홀이 그린 대중 소비 이미지의 대표작."
+  }
+]
