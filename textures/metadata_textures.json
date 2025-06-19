@@ -1,5 +1,6 @@
-{
-  "set1": {
+[
+  {
+    "set": "set1",
     "thumb":
       "https://raw.githubusercontent.com/GuatemalanGirl/mygallery/main/textures/floor/floor1.png",
     "floor":
@@ -9,7 +10,8 @@
     "walls":
       "https://raw.githubusercontent.com/GuatemalanGirl/mygallery/main/textures/walls/walls1.png"
   },
-  "set2": {
+  {
+    "set": "set2",
     "thumb":
       "https://raw.githubusercontent.com/GuatemalanGirl/mygallery/main/textures/floor/floor2.png",
     "floor":
@@ -19,7 +21,8 @@
     "walls":
       "https://raw.githubusercontent.com/GuatemalanGirl/mygallery/main/textures/walls/walls2.png"
   },
-  "set3": {
+  {
+    "set": "set3",
     "thumb":
       "https://raw.githubusercontent.com/GuatemalanGirl/mygallery/main/textures/floor/floor3.png",
     "floor":
@@ -29,7 +32,8 @@
     "walls":
       "https://raw.githubusercontent.com/GuatemalanGirl/mygallery/main/textures/walls/walls3.png"
   },
-  "set4": {
+  {
+    "set": "set4",
     "thumb":
       "https://raw.githubusercontent.com/GuatemalanGirl/mygallery/main/textures/floor/floor4.png",
     "floor":
@@ -39,7 +43,8 @@
     "walls":
       "https://raw.githubusercontent.com/GuatemalanGirl/mygallery/main/textures/walls/walls4.png"
   },
-  "set5": {
+  {
+    "set": "set5",
     "thumb":
       "https://raw.githubusercontent.com/GuatemalanGirl/mygallery/main/textures/floor/floor5.png",
     "floor":
@@ -49,7 +54,8 @@
     "walls":
       "https://raw.githubusercontent.com/GuatemalanGirl/mygallery/main/textures/walls/walls5.png"
   },
-  "set6": {
+  {
+    "set": "set6",
     "thumb":
       "https://raw.githubusercontent.com/GuatemalanGirl/mygallery/main/textures/floor/floor6.png",
     "floor":
@@ -59,7 +65,8 @@
     "walls":
       "https://raw.githubusercontent.com/GuatemalanGirl/mygallery/main/textures/walls/walls6.png"
   },
-  "set7": {
+  {
+    "set": "set7",
     "thumb":
       "https://raw.githubusercontent.com/GuatemalanGirl/mygallery/main/textures/floor/floor7.png",
     "floor":
@@ -69,7 +76,8 @@
     "walls":
       "https://raw.githubusercontent.com/GuatemalanGirl/mygallery/main/textures/walls/walls8.png"
   },
-  "set8": {
+  {
+    "set": "set8",
     "thumb":
       "https://raw.githubusercontent.com/GuatemalanGirl/mygallery/main/textures/floor/floor8.png",
     "floor":
@@ -79,4 +87,4 @@
     "walls":
       "https://raw.githubusercontent.com/GuatemalanGirl/mygallery/main/textures/walls/walls9.png"
   }
-}
+]
