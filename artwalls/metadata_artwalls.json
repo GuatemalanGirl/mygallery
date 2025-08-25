@@ -19,5 +19,75 @@
     "filename": "yellowhouse.png",
     "title": "Campbell's Soup",
     "description": "앤디 워홀이 그린 대중 소비 이미지의 대표작."
+  },
+  {
+    "id": "artwall_04",
+    "type": "artwall",
+    "filename": "artwall1.png",
+    "title": "Design Art",
+    "description": "디자인과 예술의 경계를 넘나드는 이야기입니다."
+  },
+  {
+    "id": "artwall_04",
+    "type": "artwall",
+    "filename": "music_artwall2.png",
+    "title": "Campbell's Soup",
+    "description": "앤디 워홀이 그린 대중 소비 이미지의 대표작."
+  },
+  {
+    "id": "artwall_03",
+    "type": "artwall",
+    "filename": "music_artwall3.png",
+    "title": "Campbell's Soup",
+    "description": "앤디 워홀이 그린 대중 소비 이미지의 대표작."
+  },
+  {
+    "id": "artwall_01",
+    "type": "artwall",
+    "filename": "music_artwall4.png",
+    "title": "Design Art",
+    "description": "디자인과 예술의 경계를 넘나드는 이야기입니다."
+  },
+  {
+    "id": "artwall_02",
+    "type": "artwall",
+    "filename": "music_artwall5.png",
+    "title": "Campbell's Soup",
+    "description": "앤디 워홀이 그린 대중 소비 이미지의 대표작."
+  },
+  {
+    "id": "artwall_03",
+    "type": "artwall",
+    "filename": "music_artwall6.png",
+    "title": "Campbell's Soup",
+    "description": "앤디 워홀이 그린 대중 소비 이미지의 대표작."
+  },
+  {
+    "id": "artwall_01",
+    "type": "artwall",
+    "filename": "music_artwall7.png",
+    "title": "Design Art",
+    "description": "디자인과 예술의 경계를 넘나드는 이야기입니다."
+  },
+  {
+    "id": "artwall_02",
+    "type": "artwall",
+    "filename": "music_artwall8.png",
+    "title": "Campbell's Soup",
+    "description": "앤디 워홀이 그린 대중 소비 이미지의 대표작."
+  },
+  {
+    "id": "artwall_02",
+    "type": "artwall",
+    "filename": "music_artwall9.png",
+    "title": "Campbell's Soup",
+    "description": "앤디 워홀이 그린 대중 소비 이미지의 대표작."
+  },
+  {
+    "id": "artwall_03",
+    "type": "artwall",
+    "filename": "music_artwall10.png",
+    "title": "Campbell's Soup",
+    "description": "앤디 워홀이 그린 대중 소비 이미지의 대표작."
   }
 ]
